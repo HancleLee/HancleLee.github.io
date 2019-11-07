@@ -6,22 +6,22 @@ description: "Thinking will not overcome fear but action will."
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
+        <!-- <h2 class="post-title">
             {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
+        </h2> -->
+        <!-- {% if post.subtitle %}
         <h3 class="post-subtitle">
             {{ post.subtitle }}
         </h3>
-        {% endif %}
+        {% endif %} -->
         <div class="post-content-preview">
-            <img src="{{post.header-img}}" class="post-content-img" style="max-width: 70%;">
+            <img src="{{post.header-img}}" class="post-content-img" style="max-width: 100%;">
             <!-- {{ post.content | strip_html | truncate:200 }} -->
         </div>
     </a>
-    <p class="post-meta">
+    <!-- <p class="post-meta">
         Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
+    </p> -->
 </div>
 <hr>
 {% endfor %}
