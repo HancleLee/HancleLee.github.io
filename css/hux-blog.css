@@ -672,16 +672,16 @@ pre code {
   font-size: 13px;
   font-style: italic;
   color: #a3a3a3;
-  max-width: 70%;
+  max-width: 40%;
 }
 .post-content-img:hover {
   color: #0085a1;
-  max-width: 70%;
+  max-width: 40%;
 }
 @media only screen and (min-width: 768px) {
   .post-content-img {
     font-size: 14px;
-    max-width: 70%;
+    max-width: 40%;
   }
 }
 
